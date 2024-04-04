@@ -1,0 +1,5 @@
+name: napari-popdyn
+channels: 
+  - defaults
+dependencies:
+  - napari
