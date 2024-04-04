@@ -3,6 +3,16 @@
 
 You need a package manager, for example Anaconda.
 
-To create the Anaconda environment using the file provided in this repository do:
+To create the Anaconda environment do:
 
-`conda env create -f napari-popdyn.yml`
+`conda create -n napari-popdyn -c conda-forge python=3.10`
+
+Activate the environment:
+
+`conda activate napari-popdyn`
+
+Then run:
+
+`python -m pip install "napari[all]"`
+
+And let the fun start.
