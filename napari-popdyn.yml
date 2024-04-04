@@ -1,5 +1,10 @@
 name: napari-popdyn
 channels: 
   - defaults
+  - conda-forge
 dependencies:
   - napari
+  - pyqt
+  - jupyter
+  - matplotlib
+  - python=3.8 
